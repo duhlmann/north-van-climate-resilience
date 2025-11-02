@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# data (keep raw out of git to save space)
+data/raw/*
+data/processed/*.geojson
+data/processed/*.gpkg
+data/processed/*.csv
+
+# notebook artifacts
+.ipynb_checkpoints/
+*.ipynb_convert/
+.notebooks-cache/
+
+# OS noise
+.DS_Store
+
+# python envs
+.env
+.venv
+__pycache__/
+*.pyc
+
